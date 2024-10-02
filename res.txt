@@ -1,0 +1,28 @@
+([^A-Z0-9])(AKIA|A3T|AGPA|AIDA|AROA|AIPA|ANPA|ANVA|ASIA)[A-Z0-9]{12,}
+\W([0-9a-f]{32})
+(AAAA[a-zA-Z0-9_-]{7}:[a-zA-Z0-9_-]{140})
+[\W]{1,2}([a-f0-9]{40})[\W]{1,2}$
+(AIza[0-9A-Za-z\-_]{35})
+(ya29\.[0-9A-Za-z\-_]+)
+(?:HEROKU_API_KEY|HEROKU_API_TOKEN|HEROKU_API_SECRET|heroku_api_key|heroku_api_token|heroku_api_secret|heroku_key|HEROKU_TOKEN|HEROKU_AUTH|heroku_auth|herokuAuth|heroku_auth_token)[\W|\s]{1,}([0-9a-fA-F]{8}\-[0-9a-fA-F]{4}\-[0-9a-fA-F]{4}\-[0-9a-fA-F]{4}\-[0-9a-fA-F]{12})\W
+(eyJ[a-zA-Z0-9]{10,}\.eyJ[a-zA-Z0-9]{10,}\.[a-zA-Z0-9_-]{10,})
+\W(?:[a-f0-9]{32}(-us[0-9]{1,2}))\W
+(key-[0-9a-f]{32})
+[\W]{1,2}([E][A-Z]{1}[a-zA-Z0-9_-]{78})[\W]{1,2}$
+(-----BEGIN PRIVATE KEY-----[a-zA-Z0-9\S]{100,}-----END PRIVATE KEY-----)
+(-----BEGIN RSA PRIVATE KEY-----[a-zA-Z0-9\S]{100,}-----END RSA PRIVATE KEY-----)
+(-----BEGIN DSA PRIVATE KEY-----[a-zA-Z0-9\S]{100,}-----END DSA PRIVATE KEY-----)
+(-----BEGIN EC PRIVATE KEY-----[a-zA-Z0-9\S]{100,}-----END EC PRIVATE KEY-----)
+(-----BEGIN PGP PRIVATE KEY BLOCK-----[a-zA-Z0-9\S]{100,}-----END PGP PRIVATE KEY BLOCK-----)
+(-----BEGIN OPENSSH PRIVATE KEY-----[a-zA-Z0-9\S]{100,}-----END OPENSSH PRIVATE KEY-----)
+(SG\.[a-zA-Z0-9-_]{22}\.[a-zA-Z0-9_-]{43})
+(([\w-]+://?|www[.])[^\s()<>]+(?:\([\w\d]+\)|([^[:punct:]\s]|/)))
+\W(xox[p|b|o|a]-[0-9]{1,}-[0-9]{12}-[0-9]{12}-[a-z0-9]{32})\W
+\W(xox[p|b|o|a]-[0-9]{1,}-[0-9]{1,}-[a-zA-Z0-9]{24})\W
+(hooks.slack.com/services/T[A-Z0-9]{8}/B[A-Z0-9]{8}/[a-zA-Z0-9]{1,})
+sq0[a-z]{3}-[0-9A-Za-z\-_]{43}
+\W(EAAA[a-zA-Z0-9_-]{60})\W
+(sk_live_[0-9a-zA-Z]{24})
+(rk_live_[0-9a-zA-Z]{24,34})
+[\W]{1,2}([a-zA-Z0-9]{50})[\W]{1,2}$
+SK[0-9a-fA-F]{32}
